@@ -9,6 +9,6 @@
 **Test:** `python -m unittest -v` → 10/10 OK (Python 3.13, Windows 10).
 
 **Rủi ro còn lại:**
-- Dấu `,` = phân cách nghìn, `.` = thập phân. Viết kiểu VN `25.450` sẽ bị hiểu thành 25,45 (sai im lặng, không báo lỗi).
+- Dấu `,` = phân cách nghìn, `.` = thập phân. Viết kiểu VN `25.450` sẽ bị hiểu thành 25.45 VND/USD (sai im lặng, không báo lỗi).
 - Chưa test trên Linux/macOS; output ép UTF-8, terminal cũ có thể hiển thị lỗi font tiếng Việt.
 - Không có key/token/dữ liệu thật.
